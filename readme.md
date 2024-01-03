@@ -3,9 +3,9 @@
 
 ### JMeter ile Performans Test Örnekleri
 
-Bu projede ExpressJS ile yapmış olduğum basit bir API'yi ücretsiz uygulama sunucularına yükleyerek serverları karşılaştıracağım.
+Bu projede ExpressJS ile yapmış olduğum basit bir API'yi ücretsiz uygulama sunucularına yükleyerek bunları karşılaştıracağım.
 
-Yapmış olduğum API şu an https://render.com/ üzerine deploy edildi. Render üstünde API belli bir süre kullanılmadığında pasif'e alındığını fark ettim. Daha sonra kullanmak istediğimde bir requestin gelme süresi 1-2 dakikayı bulabiliyordu. Karşılaştırma sonucunda uygulamamı ücretsiz sunuculardan en iyi olanına taşıyacağım.
+Yapmış olduğum API şu an https://render.com/ üzerine deploy edildi. Render üstünde API belli bir süre kullanılmadığında pasif'e alındığını fark ettim. Daha sonra kullanmak istediğimde bir requestin gelme süresi 1-2 dakikayı bulabiliyordu. Karşılaştırma sonucunda uygulamamı ücretsiz sunuculardan performansı en iyi olanına taşıyacağım.
 
 
 API basit bir şekilde verilen IMDB ID parametresine sahip filmin sahneleri nerede çekildiyse lokasyonlarını cevap olarak dönüyor.
@@ -23,4 +23,5 @@ Karşılaştırmaları yaparken aynı thread sayılarını kullanarak Load, Stre
 #### Karşılaştırma yapacağım uygulama sunucuları
 - Render
 - Vercel
+- Railway
 - AWS
