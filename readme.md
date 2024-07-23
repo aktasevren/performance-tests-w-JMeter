@@ -40,37 +40,6 @@ Karşılaştırmaları yaparken aynı sayıda thread kullanarak Load, Stress ve 
     Railway
     AWS
 
-json
-
-[
-    "Mansfield Reformatory - 100 Reformatory Road, Mansfield, Ohio, USA",
-    "Butler, Ohio, USA",
-    "Sandy Point, St. Croix, U.S. Virgin Islands",
-    "Malabar Farm State Park - 4050 Bromfield Road, Lucas, Ohio, USA",
-    "127A Smithfield Road, Frederiksted, Virgin Islands",
-    "Wyandot County Courthouse, Upper Sandusky, Ohio, USA",
-    "Ashland, Ohio, USA",
-    "193 North Main Street, Mansfield, Ohio, USA",
-    "Snyder Road and Hagerman Road, Bellville, Ohio, USA",
-    "Mansfield, Ohio, USA",
-    "Upper Sandusky, Ohio, USA",
-    "Rod Bay, St Croix, USVI",
-    "301 E 5th Street, Mansfield, Ohio, USA",
-    "Yuma, Arizona, USA",
-    "Bellville, Ohio, USA",
-    "Sandusky, Ohio, USA",
-    "Ohio, USA",
-    "Mansfield, Shelby, Ohio, USA",
-    "Arizona, USA",
-    "USA"
-]
-
-Karşılaştırmaları yaparken aynı sayıda thread kullanarak Load, Stress ve Spike testleri gerçekleştireceğim. Performans testlerini gerçekleştireceğim uygulama sunucuları şunlardır:
-
-    Render
-    Vercel
-    Railway
-    AWS
     
 ### Number of Threads / Ramp Up / Loop 
 ###  500 / 5 / 5
