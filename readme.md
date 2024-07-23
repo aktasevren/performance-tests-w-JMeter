@@ -10,15 +10,6 @@ API şu anda Render platformunda dağıtılmış durumda. Render üzerinde, API'
 Geliştirdiğim API, verilen IMDB ID parametresine sahip filmin çekim lokasyonlarını yanıt olarak döner. Örnek bir istek ve yanıt aşağıda verilmiştir:
 
     İstek: https://imdb-server-ljf3.onrender.com/imdbid/tt0111161
-    Yanıt: JMeter ile Performans Testi Örnekleri
-
-Bu projede, ExpressJS ile geliştirdiğim basit bir API'yi çeşitli ücretsiz uygulama sunucularına yükleyerek performanslarını karşılaştırmayı amaçlıyorum.
-
-API şu anda Render platformunda dağıtılmış durumda. Render üzerinde, API'nin belirli bir süre kullanılmadığında pasif hale geçtiğini gözlemledim. Bu durum, API'yi tekrar kullanmak istediğimde ilk isteğin gelme süresinin 1-2 dakikayı bulmasına neden oluyordu. Yapacağım karşılaştırma sonucunda, uygulamamı performans açısından en iyi ücretsiz sunucuya taşımayı planlıyorum.
-
-Geliştirdiğim API, verilen IMDB ID parametresine sahip filmin çekim lokasyonlarını yanıt olarak döner. Örnek bir istek ve yanıt aşağıda verilmiştir:
-
-    İstek: https://imdb-server-ljf3.onrender.com/imdbid/tt0111161
     Yanıt: [
     "Mansfield Reformatory - 100 Reformatory Road, Mansfield, Ohio, USA",
     "Butler, Ohio, USA",
