@@ -66,6 +66,18 @@ Karşılaştırmaları yaparken aynı sayıda thread kullanarak Load, Stress ve 
 | Railway |   30000   |5823|0|10916|2686.66|0.02|116.4| 258|
 | Render  |  30000    |12351|0|30471|1322.05|0.02|59.6|503|
 
+Sonuç:
+
+    Vercel: Genellikle daha düşük yanıt süreleri ve yüksek throughput ile iyi bir performans gösteriyor. Ancak, yüksek thread sayılarıyla yapılan testlerde toplam süre diğer platformlardan yüksek çıkabilir.
+
+    AWS: Yanıt süresi yüksek ve throughput düşük. Yük altında performans düşüşü belirgindir. Toplam süre bazı testlerde diğerlerinden daha iyidir.
+
+    Railway: Yanıt süresi yük altında belirgin şekilde artıyor ve throughput oldukça düşük. Toplam süre testlerde genellikle daha yüksektir.
+
+    Render: Yanıt süresi oldukça yüksek ve performans düşüşü gözlemleniyor. Toplam süre yüksek, ancak throughput bazı testlerde iyileşiyor.
+
+Bu sonuçlara göre, Vercel düşük yanıt süreleri ve yüksek throughput ile öne çıkıyor, AWS ve Railway daha yüksek yanıt süreleri ve düşük throughput ile performans gösteriyor. Render ise yüksek yanıt süreleri ve yüksek toplam süre ile düşük performans sergiliyor.
+
 
 
 
