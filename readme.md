@@ -10,7 +10,44 @@ API şu anda Render platformunda dağıtılmış durumda. Render üzerinde, API'
 Geliştirdiğim API, verilen IMDB ID parametresine sahip filmin çekim lokasyonlarını yanıt olarak döner. Örnek bir istek ve yanıt aşağıda verilmiştir:
 
     İstek: https://imdb-server-ljf3.onrender.com/imdbid/tt0111161
-    Yanıt:
+    Yanıt: JMeter ile Performans Testi Örnekleri
+
+Bu projede, ExpressJS ile geliştirdiğim basit bir API'yi çeşitli ücretsiz uygulama sunucularına yükleyerek performanslarını karşılaştırmayı amaçlıyorum.
+
+API şu anda Render platformunda dağıtılmış durumda. Render üzerinde, API'nin belirli bir süre kullanılmadığında pasif hale geçtiğini gözlemledim. Bu durum, API'yi tekrar kullanmak istediğimde ilk isteğin gelme süresinin 1-2 dakikayı bulmasına neden oluyordu. Yapacağım karşılaştırma sonucunda, uygulamamı performans açısından en iyi ücretsiz sunucuya taşımayı planlıyorum.
+
+Geliştirdiğim API, verilen IMDB ID parametresine sahip filmin çekim lokasyonlarını yanıt olarak döner. Örnek bir istek ve yanıt aşağıda verilmiştir:
+
+    İstek: https://imdb-server-ljf3.onrender.com/imdbid/tt0111161
+    Yanıt: [
+    "Mansfield Reformatory - 100 Reformatory Road, Mansfield, Ohio, USA",
+    "Butler, Ohio, USA",
+    "Sandy Point, St. Croix, U.S. Virgin Islands",
+    "Malabar Farm State Park - 4050 Bromfield Road, Lucas, Ohio, USA",
+    "127A Smithfield Road, Frederiksted, Virgin Islands",
+    "Wyandot County Courthouse, Upper Sandusky, Ohio, USA",
+    "Ashland, Ohio, USA",
+    "193 North Main Street, Mansfield, Ohio, USA",
+    "Snyder Road and Hagerman Road, Bellville, Ohio, USA",
+    "Mansfield, Ohio, USA",
+    "Upper Sandusky, Ohio, USA",
+    "Rod Bay, St Croix, USVI",
+    "301 E 5th Street, Mansfield, Ohio, USA",
+    "Yuma, Arizona, USA",
+    "Bellville, Ohio, USA",
+    "Sandusky, Ohio, USA",
+    "Ohio, USA",
+    "Mansfield, Shelby, Ohio, USA",
+    "Arizona, USA",
+    "USA"]
+
+
+Karşılaştırmaları yaparken aynı sayıda thread kullanarak Load, Stress ve Spike testleri gerçekleştireceğim. Performans testlerini gerçekleştireceğim uygulama sunucuları şunlardır:
+
+    Render
+    Vercel
+    Railway
+    AWS
 
 json
 
